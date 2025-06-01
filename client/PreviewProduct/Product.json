@@ -1,0 +1,74 @@
+{ "PRODUCTS": [
+    {
+        "id": 1,
+        "title": "Win 10 tilted edition",
+        "cost": 13200,
+        "category": "os",
+        "img": ""
+    },
+    {
+        "id": 2,
+        "title": "Office 1000-7 bundle",
+        "cost": 1200,
+        "category": "office",
+        "img": ""
+    },
+    {
+        "id": 3,
+        "title": "Adobe PS 2077",
+        "cost": 14990,
+        "category": "design",
+        "img": "https://soft.store/upload/images/adobe_photoshop.png"
+    },
+    {
+        "id": 4,
+        "title": "Adobe AE ZXC",
+        "cost": 14990,
+        "category": "design",
+        "img": ""
+    },
+    {
+        "id": 5,
+        "title": "Microsoft Office 2021 Professional plus",
+        "cost": 7490,
+        "category": "office",
+        "img": "https://soft.store/upload/images/Office-Professional-Plus-2021.png"
+    },
+    {
+        "id": 6,
+        "title": "f",
+        "cost": 1200,
+        "category": "os",
+        "img": ""
+    },
+    {
+        "id": 7,
+        "title": "f",
+        "cost": 1200,
+        "category": "os",
+        "img": ""
+    },
+    {
+        "id": 8,
+        "title": "2",
+        "cost": 1200,
+        "category": "os",
+        "img": ""
+    },
+    {
+        "id": 9,
+        "title": "a",
+        "cost": 1200,
+        "category": "os",
+        "img": ""
+    },
+    {
+        "id": 10,
+        "title": "g",
+        "cost": 1200,
+        "category": "os",
+        "img": ""
+    }
+
+]
+} 

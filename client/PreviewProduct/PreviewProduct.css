@@ -1,0 +1,49 @@
+.ProductCard {
+    height: 300px;
+    width: 200px;
+    display: block;
+    margin: 10px;
+    border-radius: 40px;
+    background-color: rgb(138, 132, 132);
+    border: none;
+ }
+ .positionImg{
+   margin-top: 15px;
+   color: aliceblue;
+
+}
+ .positionTitle{
+   margin-top: 0px;
+   color: aliceblue;
+
+}
+ .positionCost{
+    margin-top: 0px;
+    margin-left: 0px;
+    color: aliceblue;
+
+ }
+
+ .positionButton {
+   margin-top: 0px;
+    margin-left: 0px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: #22184c;
+    color: #ddf;
+
+ }
+ .textDec {
+   letter-spacing: 0.1ch;
+   font-weight: 300;
+   margin: 0;
+   opacity: 0.5;
+ }
+
+ .img-prod {
+   margin: auto;
+   width: 130px;
+   height: 164px;
+   border-radius: 15px;
+}

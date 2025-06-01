@@ -1,0 +1,78 @@
+.headerpoFirst {
+    background-color: #ffffff;
+    color: #22184c;
+    font-family: monospace;
+    
+  }
+  .headerpoFirst{
+    margin-top: 10px;
+    min-height: 100px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .headerButton {
+    background-color: #ffffff;
+    color: #22184c;
+    font-family: monospace;
+    
+  }
+.headerButton{
+    min-height: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+}
+
+.buttonAdd{
+      align-items: center;
+    justify-content: center;
+    text-align: center;
+  width: 1000px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(43, 177, 43);
+  outline: none;
+}
+.buttonAddPo{
+      align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 130px;
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(43, 177, 43);
+  outline: none;
+}
+.buttonAddPos{
+      align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(43, 177, 43);
+  outline: none;
+}
+.datainput1 {
+    background-color: #aa9c9c;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+.textinput1 {
+        color: #000;
+}
+.formadmin {
+  height: 50px;
+}

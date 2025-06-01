@@ -1,0 +1,63 @@
+
+.bar {
+    margin: 0px;
+    padding: 0em;
+    display: flex;
+    min-width: 380px;
+    height: 100px;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 12px;
+    opacity: 0.99;
+  }
+  .bar button {
+    position: relative;
+    list-style: none;
+    border-radius: 1em;
+    border: 0px;
+    background: 0px;
+  }
+  .bar button::before, .bar button::after {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff;
+    opacity: 1;
+    transition: all 0.5s cubic-bezier(0.4, -1, 0.2, -1);
+  }
+  .bar button:before {
+    top: 0;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+  }
+  .bar button::after {
+    bottom: 0;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+  }
+  .bar button:hover::before, .bar button:hover::after {
+    width: 25%;
+    height: 3px;
+  }
+  .bar button  {
+    text-decoration:none;
+    text-transform: uppercase;
+    display: block;
+    /* padding: 0.5em 2em; */
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #ffffff;
+  }
+  .bar button.active {
+    border-color: #370e4d;
+  }
+  .bar button.active::before, .bar button.active::after {
+    width: 100%;
+    height: 50%;
+  }

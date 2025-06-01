@@ -1,0 +1,25 @@
+.foot {
+    margin-top: 10px;
+    padding: 0em;
+    display: flex;
+    min-width: 380px;
+    height: 100px;
+    width: auto;
+    justify-content:first baseline;
+    color: rgb(66, 65, 65);
+    align-items: center;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+
+    background-color: black;
+    border-radius: 12px;
+    opacity: 0.99;
+}
+.footc {
+    margin-left: 300px;
+    margin-top: 0px;
+}
+.footc1 {
+    margin-left: 100px;
+    margin-top: 0px;
+}
