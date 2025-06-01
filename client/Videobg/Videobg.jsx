@@ -6,7 +6,7 @@ import { observer } from "mobx-react-lite";
 const Videobg = observer(() => {
 
 
-  const isVideo = true
+  const isVideo = false
   
   
   
